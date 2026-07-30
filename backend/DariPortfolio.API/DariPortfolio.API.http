@@ -1,0 +1,6 @@
+@DariPortfolio.API_HostAddress = http://localhost:5299
+
+GET {{DariPortfolio.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
