@@ -160,3 +160,4 @@ C:\Users\Dari Parruca\Desktop\Job Apply\DariWEB\backend\DariPortfolio.API\obj\De
 C:\Users\Dari Parruca\Desktop\Job Apply\DariWEB\backend\DariPortfolio.API\obj\Debug\net9.0\DariPortfolio.API.pdb
 C:\Users\Dari Parruca\Desktop\Job Apply\DariWEB\backend\DariPortfolio.API\obj\Debug\net9.0\DariPortfolio.API.genruntimeconfig.cache
 C:\Users\Dari Parruca\Desktop\Job Apply\DariWEB\backend\DariPortfolio.API\obj\Debug\net9.0\ref\DariPortfolio.API.dll
+c:\Users\Dari Parruca\Desktop\Job Apply\DariWEB\backend\DariPortfolio.API\obj\Debug\net9.0\DariPortfolio.API.sourcelink.json
