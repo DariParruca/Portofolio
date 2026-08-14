@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: read
 
@@ -25,14 +26,18 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build React app
+      - name: Build application
         run: npm run build
 
-      - name: Upload build artifact
+      - name: Upload application
         uses: actions/upload-artifact@v4
         with:
-          name: react-app
-          path: dist
+          name: node-app
+          path: |
+            dist
+            server-entry.mjs
+            package.json
+            package-lock.json
 
   deploy:
     runs-on: ubuntu-latest
@@ -43,10 +48,10 @@ jobs:
       contents: read
 
     steps:
-      - name: Download build artifact
+      - name: Download application
         uses: actions/download-artifact@v4
         with:
-          name: react-app
+          name: node-app
 
       - name: Login to Azure
         uses: azure/login@v2
