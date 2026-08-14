@@ -25,7 +25,7 @@ const I18N = {
       "Developer with 2+ years of experience in full-stack web development and data engineering. Currently pursuing an MSc in Cyber Security & Resilience at FH St. Pölten. Specialises in C# / .NET, REST APIs, SQL, and hands-on security operations — bridging robust software delivery with practical defensive engineering.",
     statYears: "Years dev exp.", statProjects: "Security projects", statLangs: "Languages", statMsc: "Cyber Security",
     skillsHeading: "S K I L L S",
-    skLanguages: "Languages", skInfrastructure: "Infrastructure", skSecurity: "Security Tools", skMethod: "Method", skFrameworks: "Frameworks",
+    skLanguages: "Languages", skInfrastructure: "Data & Automation", skSecurity: "Security Tools", skMethod: "Method", skFrameworks: "Frameworks",
     tools: "Tools of the Trade",
     experienceHeading: "E X P E R I E N C E",
     currentFocusLabel: "Currently focusing on",
@@ -54,6 +54,7 @@ const I18N = {
       bank: [
         "Developed C# / .NET internal apps including a dynamic contract generator auto-populating legal templates with client data.",
         "Built SSIS ETL pipelines for automated data manipulation, email/SMS dispatch, and reporting workflows.",
+        "Used Power BI to support banking reports and data visualisation, working with structured business data to prepare and present reporting insights.",
         "Parsed Excel and PDF files into SQL Server; designed and normalised multiple databases for new features.",
         "Designed REST APIs for enterprise integration: LDAP auth and automated JIRA task creation from parsed PDFs.",
         "Containerised and deployed with Docker; managed CI/CD via GitLab.",
@@ -78,7 +79,7 @@ const I18N = {
       "Entwickler mit über 2 Jahren Erfahrung in Full-Stack-Webentwicklung und Data Engineering. Derzeit MSc-Studium in Cyber Security & Resilience an der FH St. Pölten. Spezialisiert auf C# / .NET, REST-APIs, SQL und praktischen Security Operations — eine Brücke zwischen robuster Softwarelieferung und defensiver Ingenieurspraxis.",
     statYears: "Jahre Dev-Erfahrung", statProjects: "Security-Projekte", statLangs: "Sprachen", statMsc: "Cybersicherheit",
     skillsHeading: "F Ä H I G K E I T E N",
-    skLanguages: "Sprachen", skInfrastructure: "Infrastruktur", skSecurity: "Security-Tools", skMethod: "Methode", skFrameworks: "Frameworks",
+    skLanguages: "Sprachen", skInfrastructure: "Daten & Automatisierung", skSecurity: "Security-Tools", skMethod: "Methode", skFrameworks: "Frameworks",
     tools: "Werkzeuge des Handwerks",
     experienceHeading: "E R F A H R U N G",
     currentFocusLabel: "Aktuell im Fokus",
@@ -3399,8 +3400,8 @@ function SkillConstellation() {
               left: `${(i*71+13)%100}%`, top: `${(i*53+7)%100}%` }}/>
         ))}
       </div>
-      <svg viewBox="0 0 480 340" className="w-full h-auto relative z-10"
-        style={{ maxHeight: 300 }} aria-label="Skill constellation">
+      <svg viewBox="0 0 480 380" className="w-full h-auto relative z-10"
+        style={{ maxHeight: 350 }} aria-label="Skill constellation">
         {/* constellation lines */}
         {STAR_EDGES.map(([a,b],i) => {
           const na = STAR_NODES.find(n=>n.id===a)!;
@@ -3467,10 +3468,10 @@ function SkillConstellation() {
         )}
         {/* group legends */}
         {[
-          { label: "Programming", col: GROUP_COLORS.lang,  x: 12,  y: 330 },
-          { label: "Security",    col: GROUP_COLORS.sec,   x: 130, y: 330 },
-          { label: "Infra",       col: GROUP_COLORS.infra, x: 228, y: 330 },
-          { label: "Frameworks",  col: GROUP_COLORS.fw,    x: 310, y: 330 },
+          { label: "Programming", col: GROUP_COLORS.lang,  x: 100, y: 368 },
+          { label: "Security",    col: GROUP_COLORS.sec,   x: 190, y: 368 },
+          { label: "Infra",       col: GROUP_COLORS.infra, x: 280, y: 368 },
+          { label: "Frameworks",  col: GROUP_COLORS.fw,    x: 370, y: 368 },
         ].map((lg) => (
           <g key={lg.label} style={{ pointerEvents: "none" }}>
             <circle cx={lg.x + 4} cy={lg.y - 3} r={3.5} fill={lg.col} opacity={0.75}/>
@@ -4076,7 +4077,7 @@ function Index() {
             style={{ background: "radial-gradient(ellipse at 70% 15%, rgba(60,30,140,0.20) 0%, rgba(4,8,22,0.70) 50%), radial-gradient(ellipse at 20% 85%, rgba(20,80,60,0.14) 0%, transparent 55%)" }}>
             <div className="space-y-5">
               <SkillCol title={t.skLanguages} items={["C# / .NET / ASP.NET MVC", "Python · Java · JavaScript", "SQL · Bash · Linux"]} />
-              <SkillCol title={t.skInfrastructure} items={["Docker · GitLab · SSIS", "REST APIs · LDAP · SSMS", "VMware"]} />
+              <SkillCol title={t.skInfrastructure} items={["Docker · GitLab · SSIS", "REST APIs · LDAP · SSMS · Power BI", "VMware"]} />
             </div>
             <div className="space-y-5">
               <SkillCol title={t.skSecurity} items={["Kali · Nmap · Metasploit", "Burp Suite · Hydra · SQLMap", "Wazuh · ELK · OpenVAS", "Wireshark"]} />
