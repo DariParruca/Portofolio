@@ -237,7 +237,7 @@ const I18N = {
     adminUnlockBtn: "Unlock",
     adminEntries: "entries",
     bullets: {
-      bank: ["Developed C# / .NET internal apps including a dynamic contract generator auto-populating legal templates with client data.", "Built SSIS ETL pipelines for automated data manipulation, email/SMS dispatch, and reporting workflows.","Used Power BI to support banking reports and data visualisation, working with structured business data to prepare and present reporting insights.",  "Parsed Excel and PDF files into SQL Server; designed and normalised multiple databases for new features.", "Designed REST APIs for enterprise integration: LDAP auth and automated JIRA task creation from parsed PDFs.", "Containerised and deployed with Docker; managed CI/CD via GitLab.", "Optimised complex daily SQL transaction-summary queries, significantly reducing execution time."],
+      bank: ["Developed C# / .NET internal apps including a dynamic contract generator auto-populating legal templates with client data.", "Built SSIS ETL pipelines for automated data manipulation, email/SMS dispatch, and reporting workflows.", "Parsed Excel and PDF files into SQL Server; designed and normalised multiple databases for new features.", "Designed REST APIs for enterprise integration: LDAP auth and automated JIRA task creation from parsed PDFs.", "Containerised and deployed with Docker; managed CI/CD via GitLab.", "Optimised complex daily SQL transaction-summary queries, significantly reducing execution time."],
       soft: ["Delivered full-stack web solutions in W-language (WEBDEV) with polished UI and robust backend logic.", "Managed large production databases in SSMS ensuring data integrity, performance, and issue resolution.", "Designed and optimised SQL queries; integrated XML data sources across multiple formats.", "Participated in Agile / SCRUM delivery cycles, contributing to timely, high-quality releases."]
     }
   },
@@ -3495,6 +3495,14 @@ const STAR_NODES = [
     group: "infra",
     r: 3.8
   },
+  {
+    id: "powerbi",
+    label: "Power BI",
+    x: 110,
+    y: 340,
+    group: "infra",
+    r: 3.6
+  },
   // Frameworks cluster (center-bottom)
   {
     id: "iso",
@@ -3537,7 +3545,7 @@ const STAR_NODES = [
     r: 3.5
   }
 ];
-const STAR_EDGES = [["csharp", "python"], ["csharp", "sql"], ["python", "js"], ["sql", "bash"], ["python", "bash"], ["kali", "burp"], ["kali", "msf"], ["burp", "wireshark"], ["msf", "openvas"], ["wazuh", "openvas"], ["wazuh", "wireshark"], ["docker", "gitlab"], ["docker", "ssis"], ["gitlab", "rest"], ["ssis", "rest"], ["iso", "owasp"], ["iso", "cis"], ["owasp", "mitre"], ["cis", "mitre"], ["mitre", "agile"], ["mitre", "msf"], ["owasp", "burp"], ["iso", "csharp"], ["rest", "csharp"], ["agile", "gitlab"]];
+const STAR_EDGES = [["csharp", "python"], ["csharp", "sql"], ["python", "js"], ["sql", "bash"], ["python", "bash"], ["kali", "burp"], ["kali", "msf"], ["burp", "wireshark"], ["msf", "openvas"], ["wazuh", "openvas"], ["wazuh", "wireshark"], ["docker", "gitlab"], ["docker", "ssis"], ["gitlab", "rest"], ["ssis", "rest"], ["ssis", "powerbi"], ["rest", "powerbi"], ["iso", "owasp"], ["iso", "cis"], ["owasp", "mitre"], ["cis", "mitre"], ["mitre", "agile"], ["mitre", "msf"], ["owasp", "burp"], ["iso", "csharp"], ["rest", "csharp"], ["agile", "gitlab"]];
 const GROUP_COLORS = {
   lang: "rgba(100,180,255,0.8)",
   sec: "rgba(255,120,90,0.8)",
