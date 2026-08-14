@@ -237,7 +237,7 @@ const I18N = {
     adminUnlockBtn: "Unlock",
     adminEntries: "entries",
     bullets: {
-      bank: ["Developed C# / .NET internal apps including a dynamic contract generator auto-populating legal templates with client data.", "Built SSIS ETL pipelines for automated data manipulation, email/SMS dispatch, and reporting workflows.", "Parsed Excel and PDF files into SQL Server; designed and normalised multiple databases for new features.", "Designed REST APIs for enterprise integration: LDAP auth and automated JIRA task creation from parsed PDFs.", "Containerised and deployed with Docker; managed CI/CD via GitLab.", "Optimised complex daily SQL transaction-summary queries, significantly reducing execution time."],
+      bank: ["Developed C# / .NET internal apps including a dynamic contract generator auto-populating legal templates with client data.", "Built SSIS ETL pipelines for automated data manipulation, email/SMS dispatch, and reporting workflows.","Used Power BI to support banking reports and data visualisation, working with structured business data to prepare and present reporting insights.",  "Parsed Excel and PDF files into SQL Server; designed and normalised multiple databases for new features.", "Designed REST APIs for enterprise integration: LDAP auth and automated JIRA task creation from parsed PDFs.", "Containerised and deployed with Docker; managed CI/CD via GitLab.", "Optimised complex daily SQL transaction-summary queries, significantly reducing execution time."],
       soft: ["Delivered full-stack web solutions in W-language (WEBDEV) with polished UI and robust backend logic.", "Managed large production databases in SSMS ensuring data integrity, performance, and issue resolution.", "Designed and optimised SQL queries; integrated XML data sources across multiple formats.", "Participated in Agile / SCRUM delivery cycles, contributing to timely, high-quality releases."]
     }
   },
@@ -3462,7 +3462,7 @@ const STAR_NODES = [
     group: "sec",
     r: 3.2
   },
-  // Infrastructure cluster (bottom-left)
+  // Data & Automation (bottom-left)
   {
     id: "docker",
     label: "Docker",

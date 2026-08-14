@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DariPortfolio.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50093d61fadf45f3a04830d2b1fbe66c4952d454")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b3e86d499e1c4f5296d471fc9d745be2f83152e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DariPortfolio.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DariPortfolio.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

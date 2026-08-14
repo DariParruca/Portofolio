@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj": {}
+    "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj": {
+    "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
+        "projectUniqueName": "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
         "projectName": "DariPortfolio.API",
-        "projectPath": "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
+        "projectPath": "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
         "packagesPath": "C:\\Users\\Dari Parruca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\obj\\",
+        "outputPath": "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

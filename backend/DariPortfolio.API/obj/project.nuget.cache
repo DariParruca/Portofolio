@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7kMnZPgH9qg=",
+  "dgSpecHash": "zrGCzVEhpGI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
+  "projectFilePath": "c:\\Users\\Dari Parruca\\Desktop\\Job Apply\\DariWEB\\backend\\DariPortfolio.API\\DariPortfolio.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dari Parruca\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Dari Parruca\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

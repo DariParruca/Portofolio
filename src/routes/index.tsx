@@ -3350,11 +3350,12 @@ const STAR_NODES: StarNode[] = [
   { id: "wireshark",label:"Wireshark",     x: 420, y: 175, group: "sec",   r: 3.8 },
   { id: "wazuh",   label: "Wazuh / ELK",  x: 385, y: 215, group: "sec",   r: 3.5 },
   { id: "openvas", label: "OpenVAS",       x: 340, y: 195, group: "sec",   r: 3.2 },
-  // Infrastructure cluster (bottom-left)
+  // Data & Automation (bottom-left)
   { id: "docker",  label: "Docker",        x: 90,  y: 260, group: "infra", r: 4.5 },
   { id: "gitlab",  label: "GitLab",        x: 155, y: 240, group: "infra", r: 4.0 },
   { id: "ssis",    label: "SSIS / ETL",    x: 60,  y: 305, group: "infra", r: 3.5 },
   { id: "rest",    label: "REST APIs",     x: 145, y: 295, group: "infra", r: 3.8 },
+  { id: "powerbi", label: "Power BI",      x: 110, y: 340, group: "infra", r: 3.6 },
   // Frameworks cluster (center-bottom)
   { id: "iso",     label: "ISO 27001",     x: 250, y: 80,  group: "fw",    r: 4.8 },
   { id: "owasp",   label: "OWASP",         x: 220, y: 145, group: "fw",    r: 4.2 },
@@ -3365,7 +3366,7 @@ const STAR_NODES: StarNode[] = [
 const STAR_EDGES: [string, string][] = [
   ["csharp","python"],["csharp","sql"],["python","js"],["sql","bash"],["python","bash"],
   ["kali","burp"],["kali","msf"],["burp","wireshark"],["msf","openvas"],["wazuh","openvas"],["wazuh","wireshark"],
-  ["docker","gitlab"],["docker","ssis"],["gitlab","rest"],["ssis","rest"],
+  ["docker","gitlab"],["docker","ssis"],["gitlab","rest"],["ssis","rest"],["ssis","powerbi"],["rest","powerbi"],
   ["iso","owasp"],["iso","cis"],["owasp","mitre"],["cis","mitre"],["mitre","agile"],
   ["mitre","msf"],["owasp","burp"],["iso","csharp"],["rest","csharp"],["agile","gitlab"],
 ];
